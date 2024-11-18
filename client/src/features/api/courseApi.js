@@ -1,8 +1,8 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 const COURSE_API = `${process.env.REACT_APP_API_URL}/api/v1/course`;
-console.log('server link is ', USER_API);
-console.log('server link 2 is ', process.env.REACT_APP_API_URL);
+// console.log('server link is ', USER_API);
+// console.log('server link 2 is ', process.env.REACT_APP_API_URL);
 
 export const courseApi = createApi({
   reducerPath: "courseApi",
