@@ -3,6 +3,7 @@ import { userLoggedIn, userLoggedOut } from "../authSlice";
 
 const USER_API = `${process.env.REACT_APP_API_URL}/api/v1/user/`;
 console.log('server link is ', USER_API);
+console.log('server link 2 is ', process.env.REACT_APP_API_URL);
 
 export const authApi = createApi({
     reducerPath:"authApi",
